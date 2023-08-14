@@ -1,0 +1,26 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+    color: #444444;
+    background-color: var(--body_background);
+    color: var(--body_color);
+}
+:root{
+
+
+    --body_background:white;
+    --body_color:black;
+    --link_color: navy;
+    
+   }
+    [data-theme="dark"]{
+        --body_background: #282c34;
+        --body_color:white;
+        --link_color: cyan;
+    }
+    .App{
+        background-color: var(--body_background);
+        color: var(--body_color);
+    }
+    *{
+       transition: all 0.2s ease-in-out; 
+    }

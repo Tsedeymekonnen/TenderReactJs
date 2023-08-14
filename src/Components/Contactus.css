@@ -1,0 +1,143 @@
+.contact-us {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+    background-color: var(--body_background);
+  }
+  .contact-us:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  }
+  .contact-info {
+    flex-basis: 300px;
+    margin-right: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info p {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form {
+    flex-grow: 1;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .contact-image{
+    width: 100%;
+    width:350px;
+    height: 350px;
+    margin-left: 50px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .contact-image {
+      margin-right: 50px;
+      margin-bottom: 0;
+    }
+  }
+   
+  .allpage{
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  
+@media (max-width: 768px) {
+  .allpage {
+    flex-direction: column;
+    margin-bottom: 0;
+    width: 100%;
+  }
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  button[type='submit'] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color:#1f7ad4;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #1f7ad4;
+   
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-us {
+      flex-direction: column;
+    }
+  
+    .contact-info {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .contact-form {
+      margin-right: 0;
+    }
+  }
+  .icon{
+    color:#1f7ad4;
+ 
+  }
+  

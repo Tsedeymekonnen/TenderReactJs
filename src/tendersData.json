@@ -1,0 +1,47 @@
+{
+    "tenders": [
+      {
+        "title": "Construction Project",
+        "description": "Seeking bids for a construction project to build a commercial complex.",
+        "deadline": "2023-12-31",
+        "contact": {
+          "name": "Amen Doe",
+          "email": "aman@example.com",
+          "phone": "+251-345-333-444"
+        },
+        "eligibilityCriteria": "Contractors with at least 5 years of experience in commercial construction.",
+        "submissionProcess": "Submit bids online through our website. Required documents include project proposal, cost estimate, and company profile.",
+        "evaluationProcess": "Bids will be evaluated based on experience, cost, and previous project references.",
+        "additionalInformation": "A pre-bid meeting will be held on December 15th, 2022, at our office premises."
+      },
+      {
+        "title": "IT Services Tender",
+        "description": "Requesting proposals for IT services to manage our company's network infrastructure.",
+        "deadline": "2023-11-30",
+        "contact": {
+          "name": "sam Smith",
+          "email": "smith@example.com",
+          "phone": "+1 987-654-3210"
+        },
+        "eligibilityCriteria": "IT service providers with relevant certifications and experience in managing large-scale networks.",
+        "submissionProcess": "Submit proposals via email in PDF format. Include company profile, service offerings, and pricing details.",
+        "evaluationProcess": "Proposals will be evaluated based on technical expertise, pricing, and client references.",
+        "additionalInformation": "A site visit is scheduled for November 20th, 2022, at our office location."
+      },
+      {
+        "title": "Construction Project",
+        "description": "Seeking bids for a construction project to build a commercial complex.",
+        "deadline": "2023-12-31",
+        "contact": {
+          "name": "John Abrham",
+          "email": "johnab@example.com",
+          "phone": "+1 123-456-7890"
+        },
+        "eligibilityCriteria": "Contractors with at least 5 years of experience in commercial construction.",
+        "submissionProcess": "Submit bids online through our website. Required documents include project proposal, cost estimate, and company profile.",
+        "evaluationProcess": "Bids will be evaluated based on experience, cost, and previous project references.",
+        "additionalInformation": "A pre-bid meeting will be held on December 15th, 2022, at our office premises."
+      }
+
+    ]
+  }

@@ -1,0 +1,139 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--background_color);
+  color: var(--body_color);
+  
+}
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.about-us__image {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__image {
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+}
+
+.about-us__content {
+  
+  text-align: center;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us__content {
+    text-align: left;
+  }
+}
+.about-us__content a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #1f7ad4;
+  text-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.about-us__content h3 {
+
+    color: #1f7ad4;
+}
+
+
+    .about-us__content p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+ 
+.faq {
+  display: flex;
+  flex-direction: column;
+  padding:60px;
+  background-color:var(--background_color);
+}
+
+
+@media screen and (min-width: 768px) {
+  .faq {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+ .faq-container h3{
+   text-align: center;
+   color: #1f7ad4;
+   margin-top: 30px;
+
+ }
+ 
+
+
+.faq__card {
+  width: 100%;
+  padding: 10px;
+  
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  
+}
+.faq__card:hover{
+  background-color:#1f7ad4;
+  color: white;
+
+}
+
+
+@media screen and (min-width: 768px) {
+  .faq__card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+
+.faq__image {
+  
+  width:50px;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.title{
+  display: flex;
+  align-items: center;
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .faq__image {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+}
+
+.faq__content h4{
+  margin-bottom: 20px;
+}
+
+.faq__content p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+

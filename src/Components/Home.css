@@ -1,0 +1,88 @@
+
+
+.tenders-list {
+  display: flex;
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+
+.ad-container {
+  width: 20%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.deadline{
+  font-weight: bold;
+}
+.btn2{
+  padding: 10px 20px;
+  background-color: #1f7ad4;;
+  color:white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  width: fit-content;
+
+  
+}
+
+.tenders-container {
+  background-color: var(--body_background);
+  color: var(--body_color);
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+@media(max-width: 767px){
+  .tenders-list{
+    display: flex;
+    flex-direction: column;
+   
+    
+  }
+  .ad-container {
+    width: 70%;
+    margin-top: 10px;
+  }
+  .card{
+    width:100%;
+    flex-direction: column;
+   
+  }
+  }
+
+
+.card {
+  background-color: var(--body_background);
+  color: var(--body_color);
+  width: 90%;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  flex-direction: column;
+}
+.tenders-container {
+  
+  flex-direction: column;
+}
+
+.card-wrapper {
+  background-color: var(--body_background);
+  color: var(--body_color);
+  
+  margin: 10px;
+  padding: 1px;
+  width: 100%;
+  }
+
+.ad2{
+  margin-top: 30px;
+}
+.ad1{
+  margin-top: 30px;
+}
